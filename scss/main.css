@@ -1,0 +1,247 @@
+div.fylo {
+  background-color: #1d2c67;
+  border-radius: 0.5rem;
+  border-top-right-radius: 6rem;
+  padding: 2.25rem 5rem 1.25rem 2.25rem;
+}
+
+div.fylo div.fylo-logo {
+  padding-bottom: 1rem;
+}
+
+div.fylo div.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+div.fylo div.icons .folder,
+div.fylo div.icons .document,
+div.fylo div.icons .upload {
+  background-color: #0c122c;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  margin: 0 0.4rem;
+  height: 40px;
+}
+
+div.storage-data {
+  background-color: #1d2c67;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 2.25rem 2.25rem 2.5rem;
+}
+
+div.storage-data h1 {
+  font-weight: 400;
+  font-size: inherit;
+}
+
+div.storage-data h1 .bold-text {
+  font-weight: 700;
+}
+
+div.storage-data .data-bar {
+  background-color: #0c122c;
+  border-radius: 20px;
+  height: 13px;
+  margin: 0.5rem 0;
+}
+
+div.storage-data .data-bar span.bar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  border-radius: 20px;
+  position: absolute;
+  top: 409px;
+  height: 10px;
+  width: 160px;
+}
+
+div.storage-data div.white-dot {
+  background-color: white;
+  border-radius: 100%;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 410px;
+  right: 204px;
+}
+
+div.storage-data .gb-amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.storage-data .gb-amount h3 {
+  font-size: 12px;
+}
+
+div.storage-data .gb-left {
+  background-color: white;
+  border-radius: 0.5rem;
+  color: #0c122c;
+  font-size: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  position: absolute;
+  bottom: 175px;
+  right: 170px;
+}
+
+div.storage-data .gb-left span {
+  color: #848794;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 400px) {
+  div.storage-data div.white-dot {
+    position: absolute;
+    top: 410px;
+    right: 142px;
+  }
+  div.storage-data .gb-left {
+    position: absolute;
+    bottom: 175px;
+    right: 110px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.storage-data div.white-dot {
+    position: absolute;
+    top: 410px;
+    right: 340px;
+  }
+  div.storage-data .gb-left {
+    position: absolute;
+    bottom: 175px;
+    right: 310px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .body {
+    background: url(/images/bg-desktop.png);
+    background-color: #0c122c;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    margin-top: 425px;
+  }
+  .main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.fylo {
+    margin-top: -280px;
+    margin-right: 25px;
+  }
+  .data-bar span.bar {
+    margin-top: -110px;
+    padding: 0 8rem;
+  }
+  div.storage-data {
+    margin-top: -240px;
+    width: 30vw;
+  }
+  div.storage-data div.white-dot {
+    position: absolute;
+    top: 300px;
+    right: 487px;
+  }
+  div.storage-data .gb-left {
+    position: absolute;
+    bottom: 435px;
+    right: 370px;
+  }
+  div.storage-data .bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: 128.5px;
+    bottom: -24px;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  .attribution {
+    margin-top: 9rem;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-color: #0c122c;
+  color: #dddbff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10rem;
+}
+
+.attribution {
+  font-size: 11px;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: #848794;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

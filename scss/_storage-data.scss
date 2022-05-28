@@ -1,0 +1,71 @@
+div.storage-data {
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 2.25rem 2.25rem 2.5rem;
+
+    h1 {
+        font-weight: 400;
+        font-size: inherit;
+
+        .bold-text {
+            font-weight: 700;
+        }
+    }
+
+    .data-bar {
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 20px;
+        height: 13px;
+        margin: 0.5rem 0;
+
+        span.bar {
+            background-image: linear-gradient(to right,hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+            border-radius: 20px;
+            position: absolute;
+            top: 409px;
+            height: 10px;
+            width: 160px;
+        }
+
+    }
+
+    div.white-dot {
+        background-color: white;
+        border-radius: 100%;
+        width: 9px;
+        height: 9px;
+        position: absolute;
+        top: 410px;
+        right: 204px;
+    }
+
+    .gb-amount {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 12px;
+        }
+    }
+
+    .gb-left {
+        background-color:white;
+        border-radius: 0.5rem;
+        color: hsl(229, 57%, 11%);
+        font-size: 1.5rem;
+        padding: 0.7rem 1.5rem;
+        position: absolute;
+        bottom: 175px;
+        right: 170px;
+
+        span {
+            color: hsl(229, 7%, 55%);
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+
+
+   
+}

@@ -1,0 +1,29 @@
+div.fylo {
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 0.5rem;
+    border-top-right-radius: 6rem;
+    padding: 2.25rem 5rem 1.25rem 2.25rem;
+
+
+   div.fylo-logo {
+       padding-bottom: 1rem;
+   }
+
+   div.icons {
+       display: flex;
+       justify-content: space-evenly;
+        padding: 0.5rem;
+        margin-left: -0.5rem;
+
+
+        .folder,
+        .document,
+        .upload {
+            background-color: hsl(229, 57%, 11%);
+            border-radius: 0.5rem;
+            padding: 0.7rem;
+            margin: 0 0.4rem;
+            height: 40px;
+        }
+    }
+}

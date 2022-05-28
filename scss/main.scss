@@ -1,0 +1,54 @@
+@import  "fylo","storage-data","responsive";
+
+$Pale-Blue: hsl(243, 100%, 93%);
+$Grayish-Blue: hsl(229, 7%, 55%);
+$Dark-Blue: hsl(228, 56%, 26%);
+$Very-Dark-Blue: hsl(229, 57%, 11%);
+$font-weights: (
+    "regular": 400,
+    "bold": 700
+);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: $Very-Dark-Blue;
+    color: $Pale-Blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: map-get($font-weights, regular);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    padding-top: 5rem;
+    text-align: center; 
+}
+.attribution a { 
+    color: inherit; 
+    text-decoration: none;
+
+    &:hover {
+        color: $Grayish-Blue;
+        cursor: pointer;
+    }
+}
+
+
+

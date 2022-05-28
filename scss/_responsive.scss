@@ -1,0 +1,104 @@
+@media screen and (max-width: 400px) {
+    div.storage-data {
+       
+        div.white-dot {
+            position: absolute;
+            top: 410px;
+            right: 142px;
+        }
+    
+    
+        .gb-left {
+            position: absolute;
+            bottom: 175px;
+            right: 110px;
+    
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    div.storage-data {
+       
+        div.white-dot {
+            position: absolute;
+            top: 410px;
+            right: 340px;
+        }
+    
+    
+        .gb-left {
+            position: absolute;
+            bottom: 175px;
+            right: 310px;
+    
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .body {
+        background: url(/images/bg-desktop.png);
+        background-color: hsl(229, 57%, 11%);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        margin-top: 425px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.fylo {
+       margin-top: -280px;
+       margin-right: 25px;
+    }
+
+    .data-bar {
+        span.bar {
+            margin-top: -110px;
+            padding: 0 8rem;
+        }
+    }
+
+    div.storage-data {
+        margin-top: -240px;
+        width: 30vw;
+       
+        div.white-dot {
+            position: absolute;
+            top: 300px;
+            right: 487px;
+        }
+    
+        .gb-left {
+            position: absolute;
+            bottom: 435px;
+            right: 370px;
+    
+        }
+
+          .bubble-bottom-left:before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            border-left: 24px solid #fff;
+            border-right: 12px solid transparent;
+            border-top: 12px solid #fff;
+            border-bottom: 20px solid transparent;
+            left: 128.5px;
+            bottom: -24px;
+            transform: rotateY(180deg);
+          }
+    }
+
+    .attribution { 
+        margin-top: 9rem;
+    }
+}

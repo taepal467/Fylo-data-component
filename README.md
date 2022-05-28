@@ -26,8 +26,9 @@ Users should be able to:
 
 
 ### Links
+*Live site is better viewed in Google Chrome*
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/fylo-data-storage-component-using-scss-and-flex--okgpuRGLe)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fylo-data-storage-component-using-scss-and-flex--okgpuRGLe)
 - Live Site URL: [Netflify ](https://dapper-travesseiro-3c9688.netlify.app)
 
 ## My process
